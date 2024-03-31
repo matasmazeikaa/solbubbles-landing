@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--primary-yellow: #FFBD59;
+		--primary-blue: #7389EB;
+		--primary-black: #272830;
+		--primary-white: #ffffff;
+		--secondary-white: #EDEDED;
+		--gray: #C4C4C4;
+		--dark: #10151A;
+		--primary: #9381FF;
+		--secondary: #FFD600;
+	}
+
+	#__nuxt {
+		height: 100%;
+	}
+
+	html {
+		font-size: 62.5%;
+		font-family: 'Montserrat';
+		font-weight: 400;
+		color: var(--primary-white);
+		background-color: #10151A;
+	}
+
+	button {
+		font-family: 'Titan One';
+
+		@apply button-style-1;
+	}
+
+	h1 {
+		@apply text-h1-mobile;
+		font-family: 'Titan One';
+	}
+
+	h2 {
+		@apply text-h2-mobile;
+		font-family: 'Titan One';
+	}
+
+	h3 {
+		@apply text-h3-mobile;
+		font-family: 'Titan One';
+	}
+
+	h4 {
+		@apply text-h4-mobile;
+		font-family: 'Titan One';
+	}
+
+	.text-h1,
+	.text-h2,
+	.text-h3,
+	.text-h4,
+	.text-h5 {
+		font-family: 'Titan One';
+	}
+
+	@screen md {
+		h1 {
+			@apply text-h1;
+		}
+
+		h2 {
+			@apply text-h2;
+		}
+
+		h3 {
+			@apply text-h3;
+		}
+
+		h4 {
+			@apply text-h4;
+		}
+	}
+}
+
+@layer components {
+	.body-1-white {
+		@apply text-body-1 text-secondary-white;
+	}
+
+	.body-2-white {
+		@apply text-body-2 text-secondary-white;
+	}
+
+	.button-style-1 {
+		@apply text-button text-white;
+	}
+
+	.section-padding {
+		padding: 0 2rem;
+	}
+
+	@screen md {
+
+		.section-margin {
+			margin: 0 4.2rem;
+		}
+	}
+
+	@screen 2xl {
+		.container {
+			max-width: 1280px;
+		}
+	}
+}
+
+@layer utilities {
+}
