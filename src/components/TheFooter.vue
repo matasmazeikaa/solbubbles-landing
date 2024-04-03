@@ -9,14 +9,49 @@
 				</p>
 			</div>
 
-			<div class="w-1/3">
-				Discord
+			<div class="w-1/3 flex items-center gap-16 justify-end">
+				<a
+					class="p-16 rounded-full w-80 h-80 bg-dark flex justify-center items-center hover:opacity-75 transition-opacity"
+					href="#"
+				>
+					<IconDiscord />
+				</a>
+
+				<a
+					class="p-16 rounded-full w-80 h-80 bg-dark justify-center items-center hover:opacity-75 transition-opacity"
+					href="#"
+				>
+					<IconX />
+				</a>
 			</div>
 		</div>
 		<div class="container mx-auto text-center">
 			<div class="h-[0.5px] bg-[#494B5A]" />
 
-			<p class="text-body-2 py-32 text-white">solbubbles.io {{ new Date().getFullYear() }}</p>
+			<div class="flex items-center justify-around gap-16 py-32">
+				<p class="text-body-2  text-white">© 2024 Solbubbles. All rights reserved. {{ new Date().getFullYear() }}</p>
+
+				<div class="flex gap-16">
+					<a
+						href="#"
+						class="underline hover:opacity-75 transition-opacity text-body-2 text-white"
+					>
+						Privacy Policy
+					</a>
+					<a
+						href="#"
+						class="underline hover:opacity-75 transition-opacity text-body-2 text-white"
+					>
+						Terms of service
+					</a>
+					<a
+						href="#"
+						class="underline hover:opacity-75 transition-opacity text-body-2 text-white"
+					>
+						Cookies Settings
+					</a>
+				</div>
+			</div>
 		</div>
 	</footer>
 </template>

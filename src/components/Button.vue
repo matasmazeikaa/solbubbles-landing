@@ -10,6 +10,7 @@
 			'button--disabled-lobby': isDisabled && isLobby,
 		}"
 		:to="to"
+		:href="typeof to === 'string' ? to : undefined"
 		:disabled="isDisabled"
 	>
 		<p>
@@ -28,7 +29,7 @@ interface Props {
 	isDisabled?: boolean;
 	isLobby?: boolean;
 	to?:
-		| {
+		string | {
 				name: string;
 		}
 }
@@ -62,6 +63,7 @@ const tag = computed(() => {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 
 	&:hover {
 		opacity: 0.75;

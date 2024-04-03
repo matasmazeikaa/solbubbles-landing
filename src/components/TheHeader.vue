@@ -180,7 +180,7 @@ onMounted(() => {
 			:class="{ 'popup--active': isMobileMenuOpen }"
 		>
 			<div class="h-full flex flex-col items-center justify-center p-96">
-				<ul class="flex flex-col text-center mt-auto">
+				<ul class="flex flex-col text-center">
 					<li
 						v-for="item in items"
 						:key="item.title"
@@ -205,10 +205,10 @@ onMounted(() => {
 						</a>
 					</div>
 					<Button
-						to="/kontaktai"
+						to="https://app.solbubbles.com"
 						@click="isMobileMenuOpen = false"
 					>
-						Susisiekti
+						Launch App
 					</Button>
 				</div>
 			</div>
