@@ -20,4 +20,4 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
             cd /var/www/solbubbles-landing
-            ./scripts/deploy.sh
+            sudo bash ./scripts/deploy.sh
