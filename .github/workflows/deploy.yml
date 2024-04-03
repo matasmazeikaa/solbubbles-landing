@@ -1,0 +1,21 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to VPS
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.VPS_IP }}
+          username: ${{ secrets.VPS_USER }}
+          password: ${{ secrets.VPS_PASSWORD }}
+          script: |
+            cd /var/www/solbubbles-landing
+            ./scripts/deploy.sh
