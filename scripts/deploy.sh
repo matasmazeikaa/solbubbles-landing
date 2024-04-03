@@ -9,6 +9,6 @@ echo "Installing dependencies..."
 yarn install
 
 echo "Building..."
-yarn build
+yarn generate
 
 echo "Deployment Finished"
