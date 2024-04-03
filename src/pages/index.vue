@@ -54,9 +54,9 @@
 				<div class="justify-center flex a flex-wrap gap-16">
 					<Button
 						class="min-w-[14.4rem]"
-						to="sol"
+						to="https://app.solbubbles.com"
 					>
-						Launch App
+						Launch Ap
 					</Button>
 				</div>
 			</div>
