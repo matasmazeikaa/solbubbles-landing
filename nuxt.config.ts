@@ -9,6 +9,10 @@ export default defineNuxtConfig({
 		STRAPI_URL: process.env.STRAPI_URL,
 	},
 
+	nitro: {
+		compressPublicAssets: true,
+	},
+
 	// app config
 	extends: ['nuxt-seo-kit'],
 
