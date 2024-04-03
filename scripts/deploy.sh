@@ -3,7 +3,7 @@ set -e
 
 echo "Deploying to production..."
 
-git pull origin master
+git master
 
 echo "Installing dependencies..."
 yarn install
