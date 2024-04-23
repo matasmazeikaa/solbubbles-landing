@@ -23,6 +23,7 @@
 		font-size: 62.5%;
 		font-family: 'Montserrat';
 		font-weight: 400;
+		overflow-x: hidden;
 		color: var(--primary-white);
 		background-color: #10151A;
 	}
