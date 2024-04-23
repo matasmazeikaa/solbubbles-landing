@@ -12,14 +12,14 @@
 			<div class="w-1/3 flex items-center gap-16 justify-end">
 				<a
 					class="p-16 rounded-full w-80 h-80 bg-dark flex justify-center items-center hover:opacity-75 transition-opacity"
-					href="#"
+					href="https://discord.gg/zYjYbapSnh"
 				>
 					<IconDiscord />
 				</a>
 
 				<a
 					class="p-16 rounded-full w-80 h-80 bg-dark justify-center items-center hover:opacity-75 transition-opacity"
-					href="#"
+					href="https://twitter.com/solbubblesreal"
 				>
 					<IconX />
 				</a>
