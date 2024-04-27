@@ -16,6 +16,11 @@ export default defineNuxtConfig({
 	// app config
 	extends: ['nuxt-seo-kit'],
 
+	devServer: {
+		host: '0.0.0.0',
+		port: 8000,
+	},
+
 	// server side rendering
 	ssr: true,
 

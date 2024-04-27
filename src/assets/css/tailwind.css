@@ -4,15 +4,15 @@
 
 @layer base {
 	:root {
-		--primary-yellow: #FFBD59;
-		--primary-blue: #7389EB;
+		--primary-yellow: #ffbd59;
+		--primary-blue: #7389eb;
 		--primary-black: #272830;
 		--primary-white: #ffffff;
-		--secondary-white: #EDEDED;
-		--gray: #C4C4C4;
-		--dark: #10151A;
-		--primary: #9381FF;
-		--secondary: #FFD600;
+		--secondary-white: #ededed;
+		--gray: #c4c4c4;
+		--dark: #10151a;
+		--primary: #9381ff;
+		--secondary: #ffd600;
 	}
 
 	#__nuxt {
@@ -23,9 +23,14 @@
 		font-size: 62.5%;
 		font-family: 'Montserrat';
 		font-weight: 400;
-		overflow-x: hidden;
+		overflow-x: initial;
 		color: var(--primary-white);
-		background-color: #10151A;
+		background-color: #10151a;
+	}
+
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
 	}
 
 	button {
@@ -83,11 +88,11 @@
 
 @layer components {
 	.body-1-white {
-		@apply text-body-1 text-secondary-white;
+		@apply text-secondary-white text-body-1;
 	}
 
 	.body-2-white {
-		@apply text-body-2 text-secondary-white;
+		@apply text-secondary-white text-body-2;
 	}
 
 	.button-style-1 {
@@ -99,7 +104,6 @@
 	}
 
 	@screen md {
-
 		.section-margin {
 			margin: 0 4.2rem;
 		}

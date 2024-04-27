@@ -376,6 +376,7 @@ onMounted(() => {
   z-index: 9;
   position: fixed;
   top: 0;
+  right: 0;
   transform: translateX(100%);
 }
 

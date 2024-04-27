@@ -7,7 +7,6 @@
 	>
 		<div class="gradient-circles-right" />
 		<div class="gradient-circles-left" />
-
 		<Bubble
 			width="160px"
 			height="160px"
@@ -338,8 +337,8 @@
     background: linear-gradient(341.85deg, #000 12.68%, #ad44ff 84.03%);
     filter: blur(90px);
     right: -50%;
-    width: 1400px;
-    height: 2610px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 50%;
 }
@@ -347,8 +346,8 @@
     background: linear-gradient(341.85deg, #000 12.68%, #207ACC 84.03%);
     filter: blur(90px);
     left: -50%;
-    width: 1400px;
-    height: 2610px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 50%;
 }

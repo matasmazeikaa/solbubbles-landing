@@ -1,9 +1,8 @@
 <template>
 	<Html
 		lang="lt"
-		class="h-full"
 	>
-		<Body class="h-full">
+		<Body>
 			<NuxtLayout class="h-full">
 				<SeoKit />
 				<NuxtPage class="h-full"/>
